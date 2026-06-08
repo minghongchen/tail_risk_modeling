@@ -1,5 +1,19 @@
-# Ignore virtual environment
+# Virtual environment
 env/
 
-# Ignore .ipynb_checkpoints
+# .ipynb_checkpoints
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# System files
+.DS_Store
+**/.DS_Store
+src/risklib/__pycache__/
+
+# Data
+data/
+
+# Outputs
+outputs/
+
+
