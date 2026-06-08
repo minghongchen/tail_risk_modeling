@@ -25,6 +25,7 @@ and 2022 rates-driven drawdowns within the validation window.
 ## Methodology
 
 The methodology can be broken down into three stages:
+
 **Stage 1** : We estimate the VaR/ES by treating the portfolio return as a single series, assuming the dependence structure between assets in the portfolio is fixed over time.
 
 **Stage 2** : We examine cross-asset dependence over time and model the dependence with copulas to see if it improves the model.
@@ -34,6 +35,7 @@ The methodology can be broken down into three stages:
 ## Results
 
 ### Kupiec / Christoffersen Independence Test Results (Pass Rate)
+
 | Method | Kupiec 95% | Kupiec 99% | Christoffersen 95% |
 |---|---|---|---|
 | GARCH + HS | _50.28%_ | _55.45%_ | 83.37% |
@@ -45,7 +47,8 @@ The methodology can be broken down into three stages:
 | GARCH + EVT + t-Copula + MC | _88.93%_ | _94.05%_ | 85.49% |
 
 ### Basel Traffic Light Results
-![images](outputs/basel_traffic_res.png)
+
+![images](plots/basel_traffic_res.png)
 
 ## Notebook Walkthrough
  
