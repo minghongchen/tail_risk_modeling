@@ -38,11 +38,11 @@ The methodology can be broken down into three stages:
 
 | Method | Kupiec 95% | Kupiec 99% | Christoffersen 95% |
 |---|---|---|---|
-| GARCH + HS | _50.28%_ | _55.45%_ | 83.37% |
-| GARCH + PG | _49.49%_ | _45.93%_ | 79.21% |
-| GARCH + PST | _48.52%_ | _57.95%_ | 81% |
-| GARCH + FHS | _95.16%_ | _92.86%_ | 84.25% |
-| GARCH + FPST | _76.74%_ | _86.17%_ | 80% |
+| Historical Simulation (HS) | _50.28%_ | _55.45%_ | 83.37% |
+| Parametric Gaussian (PG) | _49.49%_ | _45.93%_ | 79.21% |
+| Student-t (PST) | _48.52%_ | _57.95%_ | 81% |
+| GARCH-filtered HS | _95.16%_ | _92.86%_ | 84.25% |
+| GARCH-filtered PST | _76.74%_ | _86.17%_ | 80% |
 | GARCH + t-Copula + MC | _92.71%_ | _95.34%_ | 85.73% |
 | GARCH + EVT + t-Copula + MC | _88.93%_ | _94.05%_ | 85.49% |
 
